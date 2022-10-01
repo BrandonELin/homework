@@ -18,7 +18,8 @@ app.get('/:bottles', function(req, res){
         bottles+=(Math.floor(Math.random()*30))
     }
     if(req.params.bottles>0){
-        res.send(`${req.params.bottles} little bugs in the code<br>${req.params.bottles} little bugs<br>take one down,<br>pass it around<br><a href='http://localhost:3000/${bottles}'>${bottles} little bugs in the code </a>`)
+        res.send(`${req.params.bottles} little bugs in the code<br>${req.params.bottles} little bugs
+        <br>take one down,<br>pass it around<br><a href='http://localhost:3000/${bottles}'>${bottles} little bugs in the code </a>`)
     } else {
         res.send(`${req.params.bottles} little bugs in the code<br><a href='http://localhost:3000/'>Start Over?</a>`)
     }
