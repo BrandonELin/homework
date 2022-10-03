@@ -9,7 +9,9 @@ const logSchema = new Schema({
     title: { type: String, required: true }, 
     entry: { type: String, required: true }, 
     shipIsBroken: {type: Boolean, default: true}
-})
+},
+{ timestamps: true }
+)
 
 // create a Model from our Schema
 const Log = mongoose.model('Log', logSchema)

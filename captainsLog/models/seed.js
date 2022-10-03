@@ -1,64 +1,19 @@
-// Starter data to refresh the documents in our database
-const fruits = [
+const logs = [
     {
-        name:'apple',
-        color: 'red',
-        readyToEat: true
+        title:'Titan',
+        entry: 'Klingons attacked',
+        shipIsBroken: true
     },
     {
-        name:'pear',
-        color: 'green',
-        readyToEat: false
+        title:'Mars',
+        entry: 'Borg Attacked',
+        shipIsBroken: true
     },
     {
-        name:'banana',
-        color: 'yellow',
-        readyToEat: true
-    },
-    {
-        name: 'kiwi',
-        color: 'green',
-        readyToEat: false
-    },
-    {
-        name: 'papaya',
-        color: 'orange',
-        readyToEat: true
+        title:'Peacock',
+        entry: 'New Series, this November',
+        shipIsBroken: false
     }
 ];
 
-const meats = [
-    {
-        name: 'hamburger',
-        type: 'rare'
-    },
-    {
-        name: 'bacon',
-        type: 'crispy',
-    },
-    {
-        name: 'chicken',
-        type: 'wing',
-    }
-];
-
-const vegetables = [
-    {
-        name: 'broccoli',
-        color: 'green'
-    },
-    {
-        name: 'kale',
-        color: 'green'
-    },
-    {
-        name: 'corn',
-        color: 'yellow'
-    }
-];
-
-module.exports = {
-    fruits,
-    meats,
-    vegetables
-}
+module.exports = logs
