@@ -35,7 +35,7 @@ function App() {
     <div id="JeopardyBoard">
       <h1>Welcome to Jeopardy!</h1>
       <Score question={question}/>
-      <h2>Let's Play!</h2>
+      <h2>Let's play!</h2>
       <button onClick={handleQuestion}>Random Trivia Question</button>
       <Question question={question}/>
       <button onClick={handleAnswer}>Click to Reveal Question</button>
