@@ -48,6 +48,7 @@ router.get('/seed', (req, res) => {
                     res.status(200).redirect('/logs')
                 }
             })
+            console.log(typeof Log)
         }
     })
 })

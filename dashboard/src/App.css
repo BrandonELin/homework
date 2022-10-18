@@ -1,0 +1,49 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+#dashboard{
+  display: flex;
+  margin: 1vw;
+}
+
+#sidebar{
+  border: 1px solid white;
+  color: white;
+  width: 20vw;
+  margin: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#top{
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 65vw;
+  margin: 1vw;
+}
+
+#reviews{
+  color: white;
+}
+
+#visitors{
+  display:flex;
+  flex-direction: column;
+  margin: 1vw;
+  border: 1px solid white;
+}
+
+img{
+  max-width: 40vw;
+  align-self: center;
+}
+
+p{
+  font-size: 2vh;
+}
