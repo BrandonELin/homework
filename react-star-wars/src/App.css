@@ -1,0 +1,43 @@
+body{
+  background-color: rgb(65, 65, 65);
+  color: white;
+  text-align: center;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  width: 30vw;
+  height: 10vh;
+  font-size: 16px;
+  border: solid 2px black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 1vw;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  width: 30vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.inner-text{
+  padding: 16px;
+}
+
+.dropdown:active .dropdown-content {display: block;}
+
+.dropdown:active{ background-color: black;}
+
+.fleet{
+  display: flex;
+  flex-wrap: wrap;
+}
